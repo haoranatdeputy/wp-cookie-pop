@@ -1,0 +1,60 @@
+.cookie-pop {
+    background-color: #F3F5F6;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    color: #5D7888;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    font-size:12px;
+    line-height:1.1;
+    /*padding:34px;*/
+}
+.cookie-pop .container{
+    padding:20px 100px;
+}
+.cookie-pop .container > .row{
+    display: flex;
+    align-items: center;
+}
+.cookie-pop button {
+    margin:0;
+}
+.cookie-pop a{
+    color:#00a1dd;
+    text-decoration: underline;
+}
+.cookie-pop a:hover{
+    color: #000;
+}
+@media screen and (max-width:1024px){
+    .cookie-pop .container{
+        padding:20px 24px;
+    }
+}
+@media screen and (max-width:767px){
+    .cookie-pop{
+        font-size: 11px;
+        /*padding:15px 60px;*/
+    }
+    .cookie-pop .container{
+        padding:15px 0px;
+        /*text-align: center;*/
+    }
+    .cookie-pop .container > .row{
+        flex-wrap:wrap;
+    }
+     .cookie-pop .col-sm-6{
+        padding-right:90px;
+
+     }
+    .cookie-pop .col-sm-4{
+        text-align: center;
+    }
+    .cookie-pop button{
+        font-size: 12px;
+        padding: 8px;
+        margin:10px 0 auto;
+    }
+} 
