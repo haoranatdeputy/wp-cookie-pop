@@ -1,0 +1,5 @@
+{
+    "name": "awesome-company/awesome-plugin",
+    "description": "Wordpress plugin for AwesomeCompany website, providing awesome functionality.",
+    "type": "wordpress-plugin"
+}
